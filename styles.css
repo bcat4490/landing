@@ -5,3 +5,9 @@ div {
 html, body {
     width: 100vw;
 }
+
+#main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
