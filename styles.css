@@ -1,6 +1,6 @@
-div {
+/* div {
     border: 1px solid black;
-}
+} */
 
 html, body {
     width: 100vw;
@@ -10,13 +10,21 @@ html, body {
     width: 100%;
     display: flex;
     flex-direction: column;
+    gap: 50px;
 }
 
 #header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 5px;
 }
+
+#header-img {
+    width: 104px;
+    height: 104px;
+}
+
 
 #what-we-offer {
     display: flex;
@@ -29,8 +37,40 @@ html, body {
     display: flex;
 }
 
-#header-img {
-    width: 50px;
-    height: 50px;
+#pricing {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+
 }
 
+.pricing-item {
+    border: 1px solid black;
+    width: 20%;
+    min-width: 300px;
+}
+
+@media only screen and (max-width:920px) {
+    #pricing {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+}
+
+#quote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#how-it-works {
+    display: flex;
+    justify-content: center;
+}
+
+#footer {
+    display: flex;
+    justify-content: flex-end;
+    gap: 5px;
+}

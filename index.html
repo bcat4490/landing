@@ -15,7 +15,17 @@
     <div id="main">
 
         <div id="header">
-            <div id="header-img"></div>
+            <div id="header-img">
+                <svg class="logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 104 104" width="100%" height="100%">
+                    <defs>
+                        <linearGradient id="logo-gradient" x1="1" x2="0" y1="1" y2="0">
+                            <stop offset="45%" stop-color="orange" />
+                            <stop offset="55%" stop-color="blue" />
+                        </linearGradient>
+                    </defs>
+                    <circle cx="52" cy="52" r="50" stroke="url(#logo-gradient)" stroke-width="3" fill="transparent" />
+                </svg>
+            </div>
             <nav id="nav-bar">
                 <a href="" class="nav-link">What We Offer</a>
                 <a href="" class="nav-link">Pricing</a>
@@ -47,16 +57,38 @@
             </div>
         </div>
 
-        <div id="pricing">pricing</div>
+        <div id="pricing">
 
-        <div id="quote">quote</div>
+            <div class="pricing-item">foo</div>
 
-        <div id="how-it-works">
-            video
-            <video src="" id="video"></video>
+            <div class="pricing-item">foo</div>
+
+            <div class="pricing-item">foo</div>
+
         </div>
 
-        <div id="footer">footer</div>
+        <div id="quote">
+            <h1>Need something different?</h1>
+            <h1>Enter your email and you'll hear back from our quote team</h1>
+            <form action="https://www.freecodecamp.com/email-submit" id="form">
+                <input type="email" id="email" placeholder="Enter your email" required>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+
+        <div id="how-it-works">
+            <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
+        <div id="footer">
+            
+
+            <a href="#" class="footer-link">Privacy</a>
+
+            <a href="#" class="footer-link">Terms</a>
+ 
+            <a href="#" class="footer-link">Contact</a>
+        </div>
 
 
     </div> <!-- end main -->
