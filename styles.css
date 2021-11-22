@@ -46,17 +46,28 @@ html, body {
 
 .pricing-item {
     border: 1px solid black;
-    width: 20%;
-    min-width: 300px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
 }
 
 @media only screen and (max-width:920px) {
     #pricing {
         flex-direction: column;
         align-items: center;
-    }
-    
+    }  
 }
+
+.pricing-item-header {
+    padding: 15px 0;
+}
+
+.pricing-item li:not(:last-child) {
+    margin-bottom: 15px;
+}
+
 
 #quote {
     display: flex;
