@@ -81,12 +81,6 @@ html, body {
     gap: 15px;
 }
 
-@media only screen and (max-width:920px) {
-    #pricing {
-        flex-direction: column;
-        align-items: center;
-    }  
-}
 
 .pricing-item-header {
     padding: 15px 0;
