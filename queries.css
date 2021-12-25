@@ -5,3 +5,14 @@
     }  
 }
 
+@media only screen and (max-width:775px) {
+    #header {
+        flex-direction: column;
+        justify-content: center;  
+    }
+
+    #nav-bar {
+        flex-direction: column;
+        align-items: center;
+    }
+}
