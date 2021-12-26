@@ -23,7 +23,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 5px;
+    gap: 25px;
     
 }
 
@@ -45,7 +45,7 @@ body {
 
 #nav-bar {
     display: flex;
-    gap: 5px;
+    gap: 10px;
 }
 
 
