@@ -3,7 +3,7 @@
 } */
 
 html, body {
-    width: 100vw;
+    width: 100%;
 }
 
 
@@ -53,10 +53,12 @@ html, body {
 .offer-container {
     display: flex;
     flex-direction: column;
+    max-width: 750px;
 }
 
 .offer-item {
     display: flex;
+    gap: 50px;
 }
 
 .offer-description {
@@ -107,6 +109,7 @@ html, body {
 }
 
 #footer {
+    width: 100%;
     display: flex;
     justify-content: flex-end;
     gap: 5px;
