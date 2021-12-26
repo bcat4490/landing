@@ -59,16 +59,19 @@ body {
     display: flex;
     flex-direction: column;
     max-width: 750px;
+    gap: 50px;
 }
 
 .offer-item {
     display: flex;
     gap: 50px;
+   
 }
 
 .offer-description {
     display: flex;
     flex-direction: column;
+    gap: 5px;
     
     
 }
