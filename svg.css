@@ -6,10 +6,10 @@
   .svg-icon path,
   .svg-icon polygon,
   .svg-icon rect {
-    fill: #4691f6;
+    fill: #81d3fa;
   }
   
   .svg-icon circle {
-    stroke: #4691f6;
+    stroke: #81d3fa;
     stroke-width: 1;
   }

@@ -10,6 +10,12 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
+a {
+    color:#81d3fa;
+    text-decoration: none;
+    font-size: 20px;
+}
+
 
 #main {
     width: 100%;
@@ -17,6 +23,8 @@ body {
     flex-direction: column;
     gap: 50px;
     padding: 10px;
+    background-color: #121212;
+    color: #fff;
 }
 
 #header {
@@ -60,6 +68,10 @@ body {
     flex-direction: column;
     max-width: 750px;
     gap: 50px;
+    background-color: rgb(255, 255, 255, .05);
+    padding: 15px;
+    border-radius: 7px;
+    
 }
 
 .offer-item {
@@ -90,21 +102,40 @@ body {
 }
 
 .pricing-item {
-    border: 1px solid black;
+    background-color: rgb(255, 255, 255, .05);
     width: 300px;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 15px;
+    border-radius: 7px;
+    text-align: center;
+    padding-bottom: 20px;
+    
 }
 
 
 .pricing-item-header {
+    background-color: rgb(255, 255, 255, .06);
     padding: 15px 0;
+    width: 100%;
+    border-radius: 7px 7px 0 0;
+    
 }
 
-.pricing-item li:not(:last-child) {
-    margin-bottom: 15px;
+.pricing-item-description {
+    padding: 0 25px;
+    flex: 1;
+    line-height: 1.5;
+}
+
+.btn {
+    background-color: #81d3fa;
+    border: none;
+    padding: 15px 30px;
+    text-align: center;
+    font-size: 14px;
+
 }
 
 #quote {
