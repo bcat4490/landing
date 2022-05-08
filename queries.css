@@ -2,6 +2,7 @@
     #pricing {
         flex-direction: column;
         align-items: center;
+        gap: 30px;
     }  
 }
 
@@ -13,6 +14,7 @@
     #nav-bar {
         flex-direction: column;
         align-items: center;
+        gap: 15px;
     }
 
     .offer-item {
