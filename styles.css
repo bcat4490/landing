@@ -24,7 +24,6 @@ a {
     display: flex;
     flex-direction: column;
     gap: 50px;
-    padding: 10px;
     background-color: #121212;
     color: #fff;
 }
@@ -36,6 +35,8 @@ a {
     gap: 25px;
     position: fixed;
     width: 100%;
+    background-color: #121212;
+    padding: 10px;
     
     
 }
@@ -69,7 +70,8 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 154px;
+    margin-top: 174px;
+    padding: 10px;
 }
 
 .offer-container {
@@ -196,6 +198,7 @@ a {
     width: 100%;
     display: flex;
     justify-content: space-between;
+    padding: 10px;
 }
 
 .footer-left {
