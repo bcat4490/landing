@@ -34,6 +34,9 @@ a {
     align-items: center;
     justify-content: space-between;
     gap: 25px;
+    position: fixed;
+    width: 100%;
+    
     
 }
 
@@ -43,7 +46,7 @@ a {
     gap: 20px;
 }
 
-#header-img {
+#svg-img {
     width: 104px;
     height: 104px;
 }
@@ -65,7 +68,8 @@ a {
 #what-we-offer {
     display: flex;
     flex-direction: column;
-    align-items: center; 
+    align-items: center;
+    margin-top: 154px;
 }
 
 .offer-container {
@@ -175,7 +179,7 @@ a {
 }
 
 
-#quote-btn {
+#submit {
     background-color: #81d3fa;
     border: none;
     padding: 10px 20px;
@@ -185,6 +189,7 @@ a {
 #how-it-works {
     display: flex;
     justify-content: center;
+    
 }
 
 #footer {
